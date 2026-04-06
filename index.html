@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thrive Tutoring with Ieuan | Primary & SEND Tutor in Bristol</title>
+
+<meta name="description" content="Qualified primary teacher offering 1-to-1 home visits and small group tutoring in Bristol. Specialising in neurodivergent learners, SEND support, and confidence-building.">
+<meta name="keywords" content="Bristol tutor, primary tutor Bristol, SEND tutoring, ADHD tutor, autism support, home visit tutor, KS1, KS2, qualified teacher Bristol, maths tutor, reading tutor">
+<meta name="author" content="Ieuan - Thrive Tutoring">
+<meta name="robots" content="index, follow">
+
+<meta property="og:title" content="Thrive Tutoring with Ieuan — Calm, Creative Learning in Bristol">
+<meta property="og:description" content="Warm, tailored tutoring for children who need extra support. Home visits across Bristol available.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_GB">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "Thrive Tutoring with Ieuan",
+  "description": "Qualified primary teacher providing bespoke 1-to-1 and small group tutoring, specialising in SEND and neurodivergent children in Bristol.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bristol",
+    "addressCountry": "GB"
+  },
+  "areaServed": "Bristol",
+  "foundingDate": "2026",
+  "priceRange": "£37.50 - £50.00",
+  "knowsAbout": ["Primary Education", "SEND", "Autism Support", "ADHD Support", "KS1", "KS2", "Maths", "English"]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --sun: #FFB830; --sky: #4ECDC4; --coral: #FF6B6B; --leaf: #6BCB77;
+  --purple: #9B59B6; --blue: #5B8DEF; --pink: #FF8ED4; --teal: #008080;
+  --bg: #FFFDF7; --bg2: #FFF9EE; --tx: #2D3436; --tx2: #555E60; --tx3: #8395A7;
+  --card: #FFFFFF; --bd: #F0EBE1;
+  --ff: 'Fredoka', sans-serif; --fn: 'Nunito', sans-serif; --fc: 'Caveat', cursive;
+  --r: 20px;
+}
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--fn); background: var(--bg); color: var(--tx); line-height: 1.7; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+::selection { background: var(--sun); color: #fff; }
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+
+nav { position: fixed; top: 0; width: 100%; z-index: 100; background: rgba(255,253,247,0.92); backdrop-filter: blur(16px); border-bottom: 2px solid var(--bd); transition: box-shadow .3s; }
+nav.shadow { box-shadow: 0 4px 24px rgba(0,0,0,0.06); }
+.nav-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 1rem 2rem; }
+.logo { font-family: var(--ff); font-weight: 700; font-size: 1.5rem; color: var(--sky); display: flex; align-items: center; gap: .5rem; }
+.logo .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--sun); display: inline-block; animation: bounce 2s infinite; }
+@keyframes bounce { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+.nav-links { display: flex; gap: 2rem; list-style: none; }
+.nav-links a { font-family: var(--ff); font-weight: 600; font-size: .9rem; color: var(--tx2); transition: color .2s; position: relative; }
+.nav-links a:hover { color: var(--sky); }
+.nav-links a::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 3px; background: var(--sun); border-radius: 2px; transition: width .25s; }
+.nav-links a:hover::after { width: 100%; }
+.menu-btn { display: none; background: none; border: none; cursor: pointer; width: 32px; height: 24px; position: relative; z-index: 110; }
+.menu-btn span { display: block; width: 100%; height: 3px; background: var(--tx); border-radius: 2px; position: absolute; left: 0; transition: .3s; }
+.menu-btn span:nth-child(1) { top: 0; }
+.menu-btn span:nth-child(2) { top: 10px; }
+.menu-btn span:nth-child(3) { top: 20px; }
+.menu-btn.open span:nth-child(1) { top: 10px; transform: rotate(45deg); }
+.menu-btn.open span:nth-child(2) { opacity: 0; }
+.menu-btn.open span:nth-child(3) { top: 10px; transform: rotate(-45deg); }
+.mobile-nav { position: fixed; inset: 0; background: rgba(255,253,247,0.97); backdrop-filter: blur(20px); z-index: 105; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2rem; opacity: 0; pointer-events: none; transition: opacity .3s; }
+.mobile-nav.open { opacity: 1; pointer-events: auto; }
+.mobile-nav a { font-family: var(--ff); font-size: 1.8rem; font-weight: 700; color: var(--tx); }
+
+.hero { min-height: 100vh; display: flex; align-items: center; position: relative; overflow: hidden; padding-top: 80px; }
+.hero-bg { position: absolute; inset: 0; z-index: 0; overflow: hidden; }
+.hero-bg .blob { position: absolute; border-radius: 50%; filter: blur(80px); opacity: .25; animation: drift 12s ease-in-out infinite alternate; }
+.blob-1 { width: 500px; height: 500px; background: var(--sky); top: -10%; right: -5%; }
+.blob-2 { width: 400px; height: 400px; background: var(--sun); bottom: -10%; left: -5%; animation-delay: -4s !important; }
+.blob-3 { width: 300px; height: 300px; background: var(--coral); top: 40%; left: 50%; animation-delay: -8s !important; }
+@keyframes drift { 0% { transform: translate(0,0) scale(1); } 100% { transform: translate(30px,20px) scale(1.08); } }
+.hero-content { position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; padding: 3rem 2rem; display: grid; grid-template-columns: 1.1fr 1fr; gap: 4rem; align-items: center; }
+.hero-badge { display: inline-flex; align-items: center; gap: .5rem; background: rgba(78,205,196,0.12); border: 2px solid rgba(78,205,196,0.25); padding: .4rem 1rem; border-radius: 50px; font-family: var(--ff); font-size: .8rem; font-weight: 600; color: var(--sky); margin-bottom: 1.5rem; }
+.hero-badge .check { color: var(--leaf); }
+.hero h1 { font-family: var(--ff); font-size: clamp(2.5rem,5.5vw,4rem); font-weight: 700; line-height: 1.15; margin-bottom: 1rem; }
+.hero h1 .highlight { color: var(--sky); position: relative; }
+.hero h1 .highlight::after { content: ''; position: absolute; bottom: 2px; left: 0; width: 100%; height: 10px; background: var(--sun); opacity: .3; border-radius: 4px; z-index: -1; }
+.hero-sub { font-size: 1.15rem; color: var(--tx2); max-width: 520px; margin-bottom: 2rem; line-height: 1.85; }
+.hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+.btn { display: inline-flex; align-items: center; gap: .5rem; padding: .85rem 2rem; border-radius: 50px; font-family: var(--ff); font-weight: 600; font-size: .95rem; border: none; cursor: pointer; transition: all .3s; text-decoration: none; }
+.btn-primary { background: var(--sky); color: #fff; box-shadow: 0 6px 24px rgba(78,205,196,0.3); }
+.btn-primary:hover { background: #3DB8B0; transform: translateY(-2px); box-shadow: 0 10px 30px rgba(78,205,196,0.35); }
+.btn-outline { background: #fff; color: var(--tx); border: 2px solid var(--bd); }
+.btn-outline:hover { border-color: var(--sky); color: var(--sky); transform: translateY(-2px); }
+
+.hero-visual { display: flex; justify-content: center; position: relative; }
+.hero-photo-wrap { position: relative; }
+.hero-photo { width: 100%; max-width: 480px; border-radius: 28px; box-shadow: 0 24px 60px rgba(0,0,0,0.1); border: 6px solid #fff; object-fit: cover; }
+.hero-photo-caption { position: absolute; bottom: -16px; left: 50%; transform: translateX(-50%); background: var(--card); border: 2px solid var(--bd); border-radius: 50px; padding: .5rem 1.5rem; font-family: var(--fc); font-size: 1.2rem; color: var(--sky); white-space: nowrap; box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
+
+section { padding: 6rem 0; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
+.section-label { font-family: var(--fc); font-size: 1.4rem; color: var(--coral); margin-bottom: .5rem; }
+.section-title { font-family: var(--ff); font-size: clamp(2rem,4vw,2.8rem); font-weight: 700; margin-bottom: .6rem; line-height: 1.2; }
+.section-sub { font-size: 1.05rem; color: var(--tx2); max-width: 600px; line-height: 1.7; margin-bottom: 3rem; }
+
+.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+.about-text p { font-size: 1.05rem; color: var(--tx2); line-height: 1.85; margin-bottom: 1.2rem; }
+.about-text strong { color: var(--tx); }
+.credential-chips { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.5rem; }
+.chip { padding: .4rem 1rem; border-radius: 50px; font-family: var(--ff); font-size: .8rem; font-weight: 600; border: 2px solid; }
+.chip-sky { color: var(--sky); border-color: rgba(78,205,196,0.3); background: rgba(78,205,196,0.06); }
+.chip-sun { color: #D4941E; border-color: rgba(255,184,48,0.3); background: rgba(255,184,48,0.06); }
+.chip-leaf { color: var(--leaf); border-color: rgba(107,203,119,0.3); background: rgba(107,203,119,0.06); }
+.chip-coral { color: var(--coral); border-color: rgba(255,107,107,0.3); background: rgba(255,107,107,0.06); }
+.chip-purple { color: var(--purple); border-color: rgba(155,89,182,0.3); background: rgba(155,89,182,0.06); }
+.chip-teal { color: var(--teal); border-color: rgba(0,128,128,0.3); background: rgba(0,128,128,0.06); }
+.chip-gray { color: var(--tx2); border-color: rgba(85,94,96,0.3); background: rgba(85,94,96,0.06); }
+
+.about-visual { background: linear-gradient(135deg, rgba(78,205,196,0.08), rgba(255,184,48,0.08)); border-radius: 28px; padding: 3rem; display: flex; flex-direction: column; gap: 1.5rem; border: 2px solid var(--bd); }
+.stat-row { display: flex; gap: 1.5rem; }
+.stat { flex: 1; background: var(--card); border-radius: var(--r); padding: 1.5rem; text-align: center; border: 2px solid var(--bd); }
+.stat-num { font-family: var(--ff); font-size: 2.2rem; font-weight: 700; }
+.stat-num.c-sky { color: var(--sky); }
+.stat-num.c-sun { color: var(--sun); }
+.stat-num.c-coral { color: var(--coral); }
+.stat-num.c-leaf { color: var(--leaf); }
+.stat-label { font-size: .85rem; color: var(--tx2); font-weight: 600; margin-top: .2rem; }
+
+#services { background: var(--bg2); }
+.services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+.service-card { background: var(--card); border-radius: var(--r); padding: 2.5rem 2rem; border: 2px solid var(--bd); transition: all .35s; position: relative; overflow: hidden; }
+.service-card:hover { transform: translateY(-6px); box-shadow: 0 16px 40px rgba(0,0,0,0.07); }
+.service-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 5px; border-radius: var(--r) var(--r) 0 0; }
+.service-card:nth-child(1)::before { background: var(--sky); }
+.service-card:nth-child(2)::before { background: var(--sun); }
+.service-card:nth-child(3)::before { background: var(--coral); }
+.service-card:nth-child(4)::before { background: var(--leaf); }
+.service-card:nth-child(5)::before { background: var(--purple); }
+.service-card:nth-child(6)::before { background: var(--pink); }
+.service-emoji { font-size: 2.5rem; margin-bottom: 1rem; }
+.service-card h3 { font-family: var(--ff); font-size: 1.3rem; font-weight: 700; margin-bottom: .6rem; }
+.service-card p { font-size: .95rem; color: var(--tx2); line-height: 1.7; }
+
+.pricing-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; max-width: 800px; margin: 0 auto; }
+.price-card { background: var(--card); border-radius: var(--r); padding: 3rem 2.5rem; border: 2px solid var(--bd); text-align: center; transition: all .35s; position: relative; }
+.price-card:hover { transform: translateY(-6px); box-shadow: 0 16px 40px rgba(0,0,0,0.07); }
+.price-card.featured { border-color: var(--sky); }
+.price-card.featured::after { content: '⭐ Most Popular'; position: absolute; top: -14px; left: 50%; transform: translateX(-50%); background: var(--sky); color: #fff; font-family: var(--ff); font-size: .75rem; font-weight: 700; padding: .3rem 1rem; border-radius: 50px; white-space: nowrap; }
+.price-emoji { font-size: 3rem; margin-bottom: 1rem; }
+.price-card h3 { font-family: var(--ff); font-size: 1.4rem; font-weight: 700; margin-bottom: .5rem; }
+.price-amount { font-family: var(--ff); font-size: 3rem; font-weight: 700; color: var(--sky); margin: 1rem 0 .2rem; }
+.price-amount span { font-size: 1rem; color: var(--tx3); font-weight: 500; }
+.price-amount-secondary { font-family: var(--ff); font-size: 1.8rem; font-weight: 700; color: var(--purple); margin: 0.5rem 0 .2rem; }
+.price-amount-secondary span { font-size: 0.9rem; color: var(--tx3); font-weight: 500; }
+.price-note { font-size: .9rem; color: var(--tx2); margin-bottom: 1.5rem; }
+.price-features { list-style: none; text-align: left; display: flex; flex-direction: column; gap: .6rem; margin-bottom: 2rem; }
+.price-features li { font-size: .95rem; color: var(--tx2); display: flex; align-items: center; gap: .5rem; }
+.price-features li::before { content: '✓'; color: var(--leaf); font-weight: 700; }
+
+#reviews { background: var(--bg2); }
+.reviews-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; }
+.review-card { background: var(--card); border-radius: var(--r); padding: 2rem; border: 2px solid var(--bd); transition: all .3s; }
+.review-card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,0.06); }
+.review-stars { color: var(--sun); font-size: 1.2rem; letter-spacing: 2px; margin-bottom: .8rem; }
+.review-text { font-size: 1rem; color: var(--tx2); line-height: 1.75; font-style: italic; margin-bottom: 1.2rem; }
+.review-author { font-family: var(--ff); font-weight: 700; font-size: .95rem; color: var(--tx); }
+.review-source { font-size: .8rem; color: var(--tx3); margin-top: .15rem; }
+
+.summer-banner { background: linear-gradient(135deg, var(--sky), var(--blue)); padding: 5rem 2rem; text-align: center; color: #fff; position: relative; overflow: hidden; }
+.summer-banner::before { content: '☀️ 🌊 🌻 📚 🎨 🌈'; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); font-size: 6rem; opacity: .08; white-space: nowrap; pointer-events: none; }
+.summer-banner h2 { font-family: var(--ff); font-size: clamp(2rem,4vw,2.8rem); font-weight: 700; margin-bottom: 1rem; position: relative; }
+.summer-banner p { font-size: 1.15rem; max-width: 600px; margin: 0 auto 2rem; opacity: .9; line-height: 1.8; position: relative; }
+
+#booking { background: var(--bg2); }
+.booking-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+.booking-info h3 { font-family: var(--ff); font-size: 1.3rem; font-weight: 700; margin-bottom: .8rem; color: var(--tx); }
+.booking-info p { font-size: 1rem; color: var(--tx2); line-height: 1.75; margin-bottom: 1.5rem; }
+.booking-steps { list-style: none; display: flex; flex-direction: column; gap: 1rem; }
+.booking-steps li { display: flex; gap: 1rem; align-items: flex-start; }
+.step-num { flex-shrink: 0; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: var(--ff); font-weight: 700; font-size: 1rem; color: #fff; }
+.step-num.s1 { background: var(--sky); }
+.step-num.s2 { background: var(--sun); }
+.step-num.s3 { background: var(--leaf); }
+.step-text { font-size: .95rem; color: var(--tx2); line-height: 1.6; padding-top: .5rem; }
+.step-text strong { color: var(--tx); }
+
+.booking-form-card { background: var(--card); border: 2px solid var(--bd); border-radius: 28px; padding: 2.5rem; box-shadow: 0 12px 40px rgba(0,0,0,0.04); }
+.booking-form-card h3 { font-family: var(--ff); font-size: 1.3rem; font-weight: 700; margin-bottom: 1.5rem; text-align: center; }
+.form-group { margin-bottom: 1.2rem; }
+.form-group label { display: block; font-family: var(--ff); font-weight: 600; font-size: .85rem; color: var(--tx); margin-bottom: .4rem; }
+.form-group input, .form-group select, .form-group textarea {
+  width: 100%; padding: .8rem 1rem; border: 2px solid var(--bd); border-radius: 14px;
+  font-family: var(--fn); font-size: .95rem; color: var(--tx); background: var(--bg);
+  transition: border-color .2s; outline: none; -webkit-appearance: none;
+}
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: var(--sky); }
+.form-group textarea { resize: vertical; min-height: 90px; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.booking-submit { width: 100%; margin-top: .5rem; justify-content: center; font-size: 1rem; padding: 1rem; }
+.booking-note { font-size: .8rem; color: var(--tx3); text-align: center; margin-top: 1rem; line-height: 1.5; }
+.form-success { display: none; text-align: center; padding: 2rem; }
+.form-success .big-emoji { font-size: 4rem; margin-bottom: 1rem; }
+.form-success h3 { font-family: var(--ff); font-size: 1.4rem; margin-bottom: .5rem; color: var(--leaf); }
+.form-success p { color: var(--tx2); line-height: 1.7; }
+
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+.contact-info { display: flex; flex-direction: column; gap: 1.5rem; }
+.contact-block label { display: block; font-family: var(--ff); font-weight: 600; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--tx3); margin-bottom: .3rem; }
+.contact-block .val { font-size: 1.1rem; color: var(--tx); font-weight: 600; }
+.contact-block .val a { color: var(--sky); transition: color .2s; }
+.contact-block .val a:hover { color: #3DB8B0; }
+.contact-card { background: linear-gradient(135deg, rgba(78,205,196,0.06), rgba(255,184,48,0.06)); border: 2px solid var(--bd); border-radius: 28px; padding: 3rem; text-align: center; }
+.contact-card .big-emoji { font-size: 4rem; margin-bottom: 1rem; }
+.contact-card h3 { font-family: var(--ff); font-size: 1.4rem; font-weight: 700; margin-bottom: .5rem; }
+.contact-card p { color: var(--tx2); line-height: 1.7; }
+
+footer { background: var(--card); border-top: 2px solid var(--bd); padding: 2.5rem 2rem; }
+.footer-inner { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+.footer-copy { font-size: .85rem; color: var(--tx3); display: flex; flex-direction: column; gap: 0.3rem; }
+.footer-copy strong { color: var(--tx2); }
+.footer-links { display: flex; gap: 1.5rem; }
+.footer-links a { font-family: var(--ff); font-size: .8rem; color: var(--tx3); font-weight: 600; transition: color .2s; }
+.footer-links a:hover { color: var(--sky); }
+
+@media (max-width: 900px) {
+  .nav-links { display: none; }
+  .menu-btn { display: block; }
+  .hero-content { grid-template-columns: 1fr; text-align: center; gap: 2.5rem; }
+  .hero-sub { margin-left: auto; margin-right: auto; }
+  .hero-actions { justify-content: center; }
+  .hero-visual { order: -1; }
+  .about-grid, .booking-layout, .contact-grid { grid-template-columns: 1fr; }
+  .services-grid { grid-template-columns: 1fr; }
+  .pricing-grid { grid-template-columns: 1fr; max-width: 400px; }
+  .reviews-grid { grid-template-columns: 1fr; }
+  .stat-row { flex-direction: column; }
+  .form-row { grid-template-columns: 1fr; }
+}
+
+.fade-in { opacity: 0; transform: translateY(28px); transition: opacity .7s ease, transform .7s ease; }
+.fade-in.visible { opacity: 1; transform: translateY(0); }
+</style>
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#" class="logo"><span class="dot"></span> Thrive Tutoring</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">What I Offer</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#booking">Book a Session</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="menu-btn" id="menuBtn"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<div class="mobile-nav" id="mobileNav">
+  <a href="#about">About</a>
+  <a href="#services">What I Offer</a>
+  <a href="#pricing">Pricing</a>
+  <a href="#reviews">Reviews</a>
+  <a href="#booking">Book</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<header class="hero">
+  <div class="hero-bg">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+  <div class="hero-content">
+    <div>
+      <div class="hero-badge"><span class="check">✓</span> Qualified Teacher · Fully Insured</div>
+      <h1>Calm, creative learning that helps your child <span class="highlight">thrive</span></h1>
+      <p class="hero-sub">I'm Ieuan — a qualified primary teacher offering warm, tailored home visits in Bristol for children who need a little extra support, a confidence boost, or a different way in.</p>
+      <div class="hero-actions">
+        <a href="#booking" class="btn btn-primary">Book a Session ☀️</a>
+        <a href="#services" class="btn btn-outline">What I Offer</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo-wrap">
+        <img src="ieuan.jpg" alt="Ieuan tutoring a child — laughing together over a maths workbook during a home visit" class="hero-photo">
+        <div class="hero-photo-caption">Learning should be fun 🌱</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-text fade-in">
+        <p class="section-label">About Ieuan</p>
+        <h2 class="section-title">A teacher who gets it</h2>
+        <p>I'm a <strong>qualified primary school teacher</strong> (PGCE, Outstanding) with years of classroom experience across Reception to Year 6. I've worked as a class teacher, Maths Lead, and now as a specialist 1-to-1 and small group tutor.</p>
+        <p>I specialise in working with <strong>neurodivergent children</strong> — including those with ADHD, autism, dyslexia, anxiety, and sensory needs. My approach is calm, flexible, and always built around your child's strengths and interests.</p>
+        <p>For your peace of mind, I am fully insured with <strong>Public Liability Insurance</strong>, registered with the ICO for data protection, and hold an enhanced DBS check. As a dad of three, I understand the juggle. I also know that every child learns differently — and that the right support, at the right pace, can make all the difference.</p>
+        <div class="credential-chips">
+          <span class="chip chip-sky">QTS / PGCE (Outstanding)</span>
+          <span class="chip chip-sun">Enhanced DBS Checked</span>
+          <span class="chip chip-teal">Public Liability Insured</span>
+          <span class="chip chip-coral">Safeguarding Trained</span>
+          <span class="chip chip-leaf">First Aid Trained</span>
+          <span class="chip chip-purple">SEND Experienced</span>
+          <span class="chip chip-gray">ICO Registered</span>
+        </div>
+      </div>
+      <div class="about-visual fade-in">
+        <div class="stat-row">
+          <div class="stat"><div class="stat-num c-sky">7+</div><div class="stat-label">Years Teaching</div></div>
+          <div class="stat"><div class="stat-num c-sun">5★</div><div class="stat-label">Google Rating</div></div>
+        </div>
+        <div class="stat-row">
+          <div class="stat"><div class="stat-num c-coral">R–Y7</div><div class="stat-label">Ages Covered</div></div>
+          <div class="stat"><div class="stat-num c-leaf">100%</div><div class="stat-label">Recommend Rate</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+    <p class="section-label fade-in">What I Offer</p>
+    <h2 class="section-title fade-in">Sessions built around your child</h2>
+    <p class="section-sub fade-in">Every session is tailored — no two children learn the same way, and that's a good thing.</p>
+    <div class="services-grid">
+      <div class="service-card fade-in"><div class="service-emoji">📝</div><h3>Reading, Writing & Maths</h3><p>Core skills support that meets your child exactly where they are — filling gaps, building confidence, and making learning feel achievable.</p></div>
+      <div class="service-card fade-in"><div class="service-emoji">🌈</div><h3>Neurodivergent Support</h3><p>Experienced with ADHD, autism, dyslexia, anxiety, and sensory needs. Sessions are sensory-aware, flexible, and always led by your child's pace.</p></div>
+      <div class="service-card fade-in"><div class="service-emoji">🔄</div><h3>Transition Preparation</h3><p>Moving from KS1 to KS2, or Year 6 to Year 7? I help children feel ready and confident for what's next.</p></div>
+      <div class="service-card fade-in"><div class="service-emoji">🏡</div><h3>Home Education Support</h3><p>Full curriculum planning and delivery for home-educated children — including Waldorf Steiner inspired approaches and braille literacy.</p></div>
+      <div class="service-card fade-in"><div class="service-emoji">🚗</div><h3>Bristol Home Visits</h3><p>I travel to you. Learning in a familiar, comfortable environment is often the best way for children to feel safe and ready to engage.</p></div>
+      <div class="service-card fade-in"><div class="service-emoji">👥</div><h3>Small Group Tutoring</h3><p>Affordable group sessions (2–4 children) that combine social learning with targeted support. Great for siblings or friends.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="container">
+    <p class="section-label fade-in" style="text-align:center;">Pricing</p>
+    <h2 class="section-title fade-in" style="text-align:center;">Simple, transparent pricing</h2>
+    <p class="section-sub fade-in" style="text-align:center;margin-left:auto;margin-right:auto;">No sign-up fees. No contracts. Just great support directly in your home.</p>
+    <div class="pricing-grid">
+      <div class="price-card featured fade-in">
+        <div class="price-emoji">🌟</div>
+        <h3>1-to-1 Home Visits</h3>
+        <div class="price-amount">£37.50 <span>/ hour (Standard)</span></div>
+        <div class="price-amount-secondary">£50.00 <span>/ hour (Evenings & Weekends)</span></div>
+        <p class="price-note">Fully personalised to your child</p>
+        <ul class="price-features"><li>Tailored lesson planning</li><li>Progress updates for parents</li><li>I travel to your home</li><li>Flexible scheduling</li><li>All resources included</li></ul>
+        <a href="#booking" class="btn btn-primary" style="width:100%;justify-content:center;">Book Now</a>
+      </div>
+      <div class="price-card fade-in">
+        <div class="price-emoji">👫</div>
+        <h3>Small Group</h3>
+        <div class="price-amount">£15–20 <span>/ child / hour</span></div>
+        <div class="price-amount-secondary" style="color:transparent;user-select:none;">- <span>-</span></div> <p class="price-note">2–4 children per group</p>
+        <ul class="price-features"><li>Social & collaborative learning</li><li>Great for siblings or friends</li><li>Same tailored approach</li><li>Hosted in-person</li><li>All resources included</li></ul>
+        <a href="#booking" class="btn btn-outline" style="width:100%;justify-content:center;">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="container">
+    <p class="section-label fade-in" style="text-align:center;">Reviews</p>
+    <h2 class="section-title fade-in" style="text-align:center;">What parents & children say</h2>
+    <p class="section-sub fade-in" style="text-align:center;margin-left:auto;margin-right:auto;">All reviews are from real families on Google and Facebook.</p>
+    <div class="reviews-grid">
+      <div class="review-card fade-in"><div class="review-stars">★★★★★</div><p class="review-text">"My son absolutely loves his sessions with Ieuan. We've been using his services for nearly a year and I can see how well my son has progressed at reading, writing and maths. Ieuan teaches in a mixture of methods which works very well for my son as he's on the spectrum."</p><div class="review-author">Yaarit M.</div><div class="review-source">Google Review</div></div>
+      <div class="review-card fade-in"><div class="review-stars">★★★★★</div><p class="review-text">"Ieuan got the tone spot on with connecting with my neurodivergent and anxious 13 year old. They look forward to the sessions and are always buzzing afterwards. Ieuan enables my kiddo to feel empowered and engaged."</p><div class="review-author">Laura C.</div><div class="review-source">Google Review</div></div>
+      <div class="review-card fade-in"><div class="review-stars">★★★★★</div><p class="review-text">"I am one of his students and I love it!! It is very fun but educational! He has a way of making things educational and funny! Please consider him as your tutor — he is one of the best in Bristol!!"</p><div class="review-author">Olive (student)</div><div class="review-source">Google Review</div></div>
+      <div class="review-card fade-in"><div class="review-stars">★★★★★</div><p class="review-text">"Ieuan was absolutely brilliant as a Y6 teacher. He has a really special connection with the children, and a wonderful way of bringing learning to life in a fun, relaxed way. I wouldn't hesitate to recommend him."</p><div class="review-author">John B.</div><div class="review-source">Google Review</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="summer-banner">
+  <h2>Summer 2026 Sessions Now Booking ☀️</h2>
+  <p>Limited daytime spaces available — perfect for home ed families or those not in full-time summer clubs. Let's make it a calm, connected, confidence-boosting summer.</p>
+  <a href="#booking" class="btn btn-primary" style="background:#fff;color:var(--sky);">Book a Summer Session</a>
+</div>
+
+<section id="booking">
+  <div class="container">
+    <p class="section-label fade-in">Book a Session</p>
+    <h2 class="section-title fade-in">Request a booking</h2>
+    <p class="section-sub fade-in">Fill in the form and I'll get back to you within 24 hours to confirm your session.</p>
+    <div class="booking-layout">
+      <div class="booking-info fade-in">
+        <h3>How it works</h3>
+        <p>Booking is simple — just tell me a bit about your child and when works for you. I'll reply by email to confirm or suggest alternatives.</p>
+        <ul class="booking-steps">
+          <li><span class="step-num s1">1</span><span class="step-text"><strong>Fill in the form</strong> — tell me your child's name, age, what they need help with, and your preferred dates/times.</span></li>
+          <li><span class="step-num s2">2</span><span class="step-text"><strong>I'll reply within 24 hours</strong> — by email to confirm availability and arrange the session.</span></li>
+          <li><span class="step-num s3">3</span><span class="step-text"><strong>We get started!</strong> — I'll plan a session tailored to your child and we'll take it from there.</span></li>
+        </ul>
+        <div style="margin-top:2rem;padding:1.5rem;background:rgba(78,205,196,0.06);border:2px solid rgba(78,205,196,0.15);border-radius:16px;">
+          <p style="font-size:.9rem;color:var(--tx2);line-height:1.7;margin:0;">
+            <strong style="color:var(--tx);">💡 Prefer to just message?</strong><br>
+            Email me at <a href="mailto:ieuan.thrive@gmail.com" style="color:var(--sky);font-weight:600;">ieuan.thrive@gmail.com</a> or call <a href="tel:07841398950" style="color:var(--sky);font-weight:600;">07841 398 950</a>.
+          </p>
+        </div>
+      </div>
+      <div class="booking-form-card fade-in">
+        <h3>📅 Request a Session</h3>
+        <div id="bookingForm">
+          <div class="form-row">
+            <div class="form-group"><label for="parentName">Your Name</label><input type="text" id="parentName" placeholder="e.g. Sarah Jones" required></div>
+            <div class="form-group"><label for="parentEmail">Your Email</label><input type="email" id="parentEmail" placeholder="e.g. sarah@email.com" required></div>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label for="childName">Child's Name</label><input type="text" id="childName" placeholder="e.g. Oliver" required></div>
+            <div class="form-group"><label for="childAge">Child's Age / Year Group</label><input type="text" id="childAge" placeholder="e.g. 8 years / Year 3"></div>
+          </div>
+          <div class="form-group"><label for="sessionType">Session Type</label>
+            <select id="sessionType">
+              <option value="1-to-1-standard">1-to-1 Home Visit — Standard (£37.50/hr)</option>
+              <option value="1-to-1-eve">1-to-1 Home Visit — Eve/Wknd (£50.00/hr)</option>
+              <option value="small-group">Small Group (£15–20/child/hr)</option>
+              <option value="summer">Summer Session</option>
+              <option value="home-ed">Home Education Support</option>
+              <option value="not-sure">Not sure yet — let's chat</option>
+            </select>
+          </div>
+          <div class="form-group"><label for="sessionFormat">Location Format</label>
+            <select id="sessionFormat">
+              <option value="in-person">Home Visit (I travel to you in Bristol)</option>
+              <option value="online">Online</option>
+              <option value="either">Either works</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="form-group"><label for="prefDate">Preferred Date</label><input type="date" id="prefDate"></div>
+            <div class="form-group"><label for="prefTime">Preferred Time</label>
+              <select id="prefTime">
+                <option value="morning">Morning (9am–12pm)</option>
+                <option value="afternoon">Afternoon (12–3pm)</option>
+                <option value="after-school">After School (3:30–5pm)</option>
+                <option value="evening">Evening (5pm onwards)</option>
+                <option value="weekend">Weekend</option>
+                <option value="flexible">I'm flexible</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group"><label for="notes">Tell me about your child & what they need help with</label><textarea id="notes" placeholder="e.g. My son is in Year 4 and struggling with reading confidence. He has ADHD and responds well to hands-on activities..."></textarea></div>
+          <button class="btn btn-primary booking-submit" onclick="submitBooking()">Send Booking Request ✉️</button>
+          <p class="booking-note">Your request will be sent directly to Ieuan by email. No payment is taken at this stage.</p>
+        </div>
+        <div class="form-success" id="formSuccess">
+          <div class="big-emoji">✅</div>
+          <h3>Request Sent!</h3>
+          <p>Thanks! I've received your booking request and will get back to you within 24 hours to confirm.</p>
+          <p style="margin-top:1rem;font-size:.9rem;color:var(--tx3);">Check your inbox for a reply from ieuan.thrive@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <p class="section-label fade-in">Get in Touch</p>
+    <h2 class="section-title fade-in">Any questions? Let's chat</h2>
+    <p class="section-sub fade-in">No pressure — just drop me a message and we can figure out what works best together.</p>
+    <div class="contact-grid">
+      <div class="contact-info fade-in">
+        <div class="contact-block"><label>Email</label><div class="val"><a href="mailto:ieuan.thrive@gmail.com">ieuan.thrive@gmail.com</a></div></div>
+        <div class="contact-block"><label>Phone</label><div class="val"><a href="tel:07841398950">07841 398 950</a></div></div>
+        <div class="contact-block"><label>Location</label><div class="val">Bristol, UK — Home Visits & Online</div></div>
+        <div class="contact-block"><label>Find Me On</label><div class="val"><a href="https://www.facebook.com/profile.php?id=61566498498498" target="_blank">Facebook — Thrive Tutoring</a></div></div>
+      </div>
+      <div class="contact-card fade-in">
+        <div class="big-emoji">🛡️</div>
+        <h3>Safe & Secure Learning</h3>
+        <p>I hold an Enhanced DBS check, Qualified Teacher Status (QTS), and full Public Liability Insurance. Safeguarding and data protection policies are available upon request.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-copy">
+      <span>&copy; 2026 Thrive Tutoring with Ieuan</span>
+      <strong>Enhanced DBS | Fully Insured | QTS | ICO Registered</strong>
+    </div>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#booking">Book</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.addEventListener('scroll', () => {
+  document.getElementById('navbar').classList.toggle('shadow', window.scrollY > 40);
+}, { passive: true });
+
+const menuBtn = document.getElementById('menuBtn');
+const mobileNav = document.getElementById('mobileNav');
+menuBtn.addEventListener('click', () => {
+  menuBtn.classList.toggle('open');
+  mobileNav.classList.toggle('open');
+  document.body.style.overflow = mobileNav.classList.contains('open') ? 'hidden' : '';
+});
+mobileNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+  menuBtn.classList.remove('open');
+  mobileNav.classList.remove('open');
+  document.body.style.overflow = '';
+}));
+
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+document.querySelectorAll('.fade-in').forEach(el => obs.observe(el));
+
+const dateInput = document.getElementById('prefDate');
+if (dateInput) {
+  const today = new Date().toISOString().split('T')[0];
+  dateInput.setAttribute('min', today);
+}
+
+function submitBooking() {
+  const parentName = document.getElementById('parentName').value.trim();
+  const parentEmail = document.getElementById('parentEmail').value.trim();
+  const childName = document.getElementById('childName').value.trim();
+  const childAge = document.getElementById('childAge').value.trim();
+  const sessionType = document.getElementById('sessionType').value;
+  const sessionFormat = document.getElementById('sessionFormat').value;
+  const prefDate = document.getElementById('prefDate').value;
+  const prefTime = document.getElementById('prefTime').value;
+  const notes = document.getElementById('notes').value.trim();
+
+  if (!parentName || !parentEmail || !childName) {
+    alert('Please fill in at least your name, email, and your child\'s name.');
+    return;
+  }
+
+  let dateStr = 'Not specified';
+  if (prefDate) {
+    const d = new Date(prefDate + 'T00:00:00');
+    dateStr = d.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+  }
+
+  const timeLabels = { 'morning': 'Morning (9am-12pm)', 'afternoon': 'Afternoon (12-3pm)', 'after-school': 'After School (3:30-5pm)', 'evening': 'Evening (5pm onwards)', 'weekend': 'Weekend', 'flexible': 'Flexible' };
+  const typeLabels = { '1-to-1-standard': '1-to-1 Home Visit - Standard (£37.50)', '1-to-1-eve': '1-to-1 Home Visit - Eve/Wknd (£50.00)', 'small-group': 'Small Group', 'summer': 'Summer Session', 'home-ed': 'Home Education Support', 'not-sure': 'Not sure yet' };
+  const formatLabels = { 'in-person': 'Home Visit (Bristol)', 'online': 'Online', 'either': 'Either' };
+
+  const subject = 'Thrive Tutoring - Booking Request for ' + childName;
+  const body = 'Hi Ieuan,\n\nI\'d like to request a tutoring session. Here are the details:\n\nPARENT / GUARDIAN\nName: ' + parentName + '\nEmail: ' + parentEmail + '\n\nCHILD\nName: ' + childName + '\nAge / Year Group: ' + (childAge || 'Not specified') + '\n\nSESSION DETAILS\nType: ' + (typeLabels[sessionType] || sessionType) + '\nFormat: ' + (formatLabels[sessionFormat] || sessionFormat) + '\nPreferred Date: ' + dateStr + '\nPreferred Time: ' + (timeLabels[prefTime] || prefTime) + '\n\nADDITIONAL NOTES\n' + (notes || 'None') + '\n\nThanks!\n' + parentName;
+
+  window.location.href = 'mailto:ieuan.thrive@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+
+  setTimeout(() => {
+    document.getElementById('bookingForm').style.display = 'none';
+    document.getElementById('formSuccess').style.display = 'block';
+  }, 500);
+}
+</script>
+</body>
+</html>
