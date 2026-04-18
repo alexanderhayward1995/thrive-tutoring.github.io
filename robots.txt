@@ -1,0 +1,10 @@
+
+Copy
+
+User-agent: *
+Allow: /
+ 
+Sitemap: https://thrive-tutoring.co.uk/sitemap.xml
+ 
+
+
